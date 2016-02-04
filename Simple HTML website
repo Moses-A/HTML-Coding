@@ -1,0 +1,113 @@
+<head>
+<style>
+#header {
+    background-color:royalblue;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:25px;
+    background-color:#eeeeee;
+    height:350px;
+    width:520px;
+    float:right;
+    padding:5px;	      
+}
+#section {
+    width:300px;
+    float:right;
+    padding:100px;	 	 
+}
+#footer {
+    background-color:darkgray;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:8px;	 	 
+}
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1> Dr. Smiles Dental Care</h1>
+</div>
+
+<div id="nav">
+<h4>
+About Us
+</h4>
+<p>
+"We are a family owned and operated dentistry since 1963. Originally from Sweden, our ancestors moved to New York during 1912 through Ellis Island. After our grandfather joined the Air Force and retired, he made his permanent home here in San Antonio, Texas." - George Credial (Owner)
+</p>
+
+<img src="http://www.transworldsystems.com/e-newsletter/RecoveryReader/images/dentist.jpg" style="width:250px;height:150px;">
+<div id="section">
+
+
+<h4>"We Treat You Like Family." </h4>
+<p> We are the proud caretakers of the largest private dentristy in the State of Texas, were we have expanded over 3 acres and we cater to everyone's dental needs. </p>
+<p> Our team of dentists are some the most intelligent in the area, and prove to be the best in the world.</p>
+<img src="http://www.horseley.com.au/uploads/2/5/3/5/25351652/8816447_orig.jpg" style="width:250px;height:150px;">
+</div>
+
+
+
+<p> <b>Contact Phone Numbers:</b> <br>
+Main Number (210) 575-4000 <br>
+Administration (210) 575- <br>
+Human Resources (210) 575-0400 <br>
+Patient Billing (866) 391-2019 <br>
+</p>
+
+<br>
+
+<p>
+<b> Our Mission: Serving Humanity to Honor God</b> <br><br>
+Dr. Smiles opened in 1963 as the first dentisty in the now internationally acclaimed and recongized. From the beginning, we’ve recognized the unique needs of each of our patients. It’s a process that we continue to improve on, creating ways to better serve the community when they need us most.
+
+Our dental care has deep-rooted traditions of patient-focused care, faith-based philosophies and hiring staff that genuinely care for the well-being of others. As an organization, we promise to provide you, the patient, the highest quality of service and treatment as we strive to carry out the mission of Dr. Smiles Dental Care: Serving Humanity to Honor God.
+<br><br>
+We are proud to say we have some of the best dentist in San Antonio at our facility.
+<br><br>
+As the flagship dental care facility of San Antonio, we appreciate the support and recognition we receive from the community in being ranked number one in the Express-News Reader’s Choice Awards from 2009-2014. We also enjoy being the most preferred dentistry in San Antonio, as consistently reported by the Consumer Research Corporation.
+<br>
+Thank you, South Texas, for making us the number one dentistry in San Antonio. We are proud to serve you, your friends and your family.
+</p> 
+
+<br>
+
+<b>Login In To Maintain Account And Win Free Prizes!</b>
+<form action="">
+User name:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+<input type="submit">
+</form>
+
+<p>(The password is asterisked for security purposes.)</p>
+
+
+
+<div id="footer">
+8109 Ingram Rd San Antonio, TX <br>
+All rights reserved. Developed with the Help of Learning. 
+<form action="action_page.php">
+<p>
+Want To Subscribe for Monthly Updates? Enter Email Address Below:
+</p> 
+<p>
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit">
+  </p>
+</form>
+</div>
+
+
+</body>
+</html>
