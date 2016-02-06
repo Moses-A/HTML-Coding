@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<style>
+#header {
+    background-color:#6666cc;
+    float: center;
+    margin: 10px;
+    padding: 10px;
+    width: 5o0px;
+    height: 65px;
+    border: 1px solid black
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+#section {
+    width:3o0px;
+    float:right;
+    padding:100px;
+    background-color:#f2f2f2;
+}
+#footer {
+    background-color:darkgray;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:8px;	 	 
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4d4d4d
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Beginning of where user sees, starts with top bar --!>
+
+<div id="header">
+<h1> Dr. Smiles Dental Care</h1>
+</div>
+
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">News</a>
+  <li><a href="about.html">Contact Us</a>
+</li>
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Login</a>
+    <div class="dropdown-content">
+      <form action="">
+User name:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+<input type="submit">
+</form>
+
+    </div>
+  </div>
+</ul>
+
+
+</p>
+</div>
+
+
+
+<div id="section">
+
+<h4>
+
+
+Contacting Us
+</h4>
+
+ <p> <b>Contact Phone Numbers:</b> <br>
+Main Number (210) 575-4000 <br>
+Administration (210) 575-8798 <br>
+Human Resources (210) 575-0400 <br>
+Patient Billing (866) 391-2019 <br>
+
+<br> 
+<img src="http://relationship-growth.com/wp-content/uploads/2015/10/Dentist-Featured-Image-1.jpeg" style="width:430px;height:355px;">
+</div>
+
+<p>Wish to contact us or create an account? Fill out the form and we will reply within 3-5 business days.</p>
+<form action="">
+First Name:<br>
+<input type="text" name="firstname">
+<br>
+Last Name:<br>
+<input type="password" name="lastname">
+<br>
+Address: <br>
+<input type="text" name="address">
+<br>
+City: <br>
+<input type="text" name="city">
+<br>
+State: <br>
+<input type="text" name="state">
+<br>
+Zip Code: <br>
+<input type="number" name="zipcode">
+<br>
+Date of Birth: <br>
+<input type="number" name="dob">
+<br>
+<input type="submit">
+</form>
+
+</form> 
+</div>
+
+<br>
+
+
+<div id="footer">
+8109 Ingram Rd San Antonio, TX <br>
+All rights reserved. Developed with the Help of Learning. 
+<form action="action_page.php">
+<p>
+Want To Subscribe for Monthly Updates? Enter Email Address Below:
+</p> 
+<p>
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit">
+  </p>
+</form>
+</div>
+
+
+</body>
+</html>
