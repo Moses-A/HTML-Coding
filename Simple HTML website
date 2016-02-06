@@ -90,20 +90,29 @@ li a:hover, .dropdown:hover .dropbtn {
 <body>
 
 <!-- Beginning of where user sees, starts with top bar --!>
+
 <div id="header">
 <h1> Dr. Smiles Dental Care</h1>
 </div>
 
 
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">News</a>
+  <li><a href="about.html">Contact Us</a>
+</li>
   <div class="dropdown">
-    <a href="#" class="dropbtn">Dropdown</a>
+    <a href="#" class="dropbtn">Login</a>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <form action="">
+User name:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+<input type="submit">
+</form>
+
     </div>
   </div>
 </ul>
@@ -131,7 +140,7 @@ About Us
 
 <p> <b>Contact Phone Numbers:</b> <br>
 Main Number (210) 575-4000 <br>
-Administration (210) 575- <br>
+Administration (210) 575-5987 <br>
 Human Resources (210) 575-0400 <br>
 Patient Billing (866) 391-2019 <br>
 </p>
@@ -140,30 +149,18 @@ Patient Billing (866) 391-2019 <br>
 
 <p>
 <b> Our Mission: Serving Humanity to Honor God</b> <br><br>
-Dr. Smiles opened in 1963 as the first dentisty in the now internationally acclaimed and recongized. From the beginning, we’ve recognized the unique needs of each of our patients. It’s a process that we continue to improve on, creating ways to better serve the community when they need us most.
+Dr. Smiles opened in 1963 as the first dentisty in the now internationally acclaimed and recongized. From the beginning, we have recognized the unique needs of each of our patients. It is a process that we continue to improve on, creating ways to better serve the community when they need us most.
 
 Our dental care has deep-rooted traditions of patient-focused care, faith-based philosophies and hiring staff that genuinely care for the well-being of others. As an organization, we promise to provide you, the patient, the highest quality of service and treatment as we strive to carry out the mission of Dr. Smiles Dental Care: Serving Humanity to Honor God.
 <br><br>
 We are proud to say we have some of the best dentist in San Antonio at our facility.
 <br><br>
-As the flagship dental care facility of San Antonio, we appreciate the support and recognition we receive from the community in being ranked number one in the Express-News Reader’s Choice Awards from 2009-2014. We also enjoy being the most preferred dentistry in San Antonio, as consistently reported by the Consumer Research Corporation.
+As the flagship dental care facility of San Antonio, we appreciate the support and recognition we receive from the community in being ranked number one in the Express-News Readers Choice Awards from 2009-2014. We also enjoy being the most preferred dentistry in San Antonio, as consistently reported by the Consumer Research Corporation.
 <br>
 Thank you, South Texas, for making us the number one dentistry in San Antonio. We are proud to serve you, your friends and your family.
 </p> 
 
 <br>
-
-<b>Login In To Maintain Account And Win Free Prizes!</b>
-<form action="">
-User name:<br>
-<input type="text" name="userid">
-<br>
-User password:<br>
-<input type="password" name="psw">
-<input type="submit">
-</form>
-
-<p>(The password is asterisked for security purposes.)</p>
 
 
 <div id="footer">
