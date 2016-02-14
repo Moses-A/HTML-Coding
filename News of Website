@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<style>
+#header {
+    background-color:#6666cc;
+    float: center;
+    margin: 10px;
+    padding: 10px;
+    width: 5o0px;
+    height: 60px;
+    border: 1px solid black
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+#nav {
+    line-height:25px;
+    background-color:#f2f2f2;
+    height:3o0px;
+    width:9o0px;
+    float:right;
+    padding:5px;	      
+}
+
+#footer {
+    background-color:darkgray;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:8px;	 	 
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4d4d4d
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Beginning of where user sees, starts with top bar --!>
+
+<div id="header">
+<h1> Dr. Smiles Dental Care</h1>
+</div>
+
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">News</a>
+  <li><a href="about.html">Contact Us</a>
+</li>
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Login</a>
+    <div class="dropdown-content">
+      <form action="">
+User name:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+<input type="submit">
+</form>
+
+    </div>
+  </div>
+</ul>
+
+
+<div id="nav">
+<h2>
+<center>News</center>
+</h2>
+<h3>
+January
+</h3>
+<p>
+Jan 1, 2016 "This month celebrates the fifth anniversary of Dr. Smiles Dental Care. We are proud to have served the people of San Antonio and we will continue to deliever the best care of any dentistry. Thank you San Antonio for keeping us your number one."
+</p>
+<h3>
+December
+</h3>
+<p>
+Dec 31, 2015 "Happy New Year's Eve Everyone! In Celebration for this wonderful Holiday we will be giving 50% off on all dental cleanings!"
+</p>
+<p>
+Dec 25, 2015 "Merry Christmas from the team here at Dr. Smiles. In celebration of this wonderful holiday we are giving away a free electric toothbrush with every visit."
+</p>
+
+<h3>
+November
+</h3>
+<p>
+Nov  26, 2015 "Happy Thanksgiving everyone! To Celebrate this wonderful day of thanks we want to thank you by giving every cleaning 25% off!"
+</p>
+
+<h3>
+October
+</h3>
+<p>
+Oct 31, 2015 "Boo! Happy Halloween, in celebration of this scary holiday, we want to scare you by giving everyone who buy braces this upcoming week glow in the dark edition!"
+</p>
+
+
+<img src="http://www.debraduffydds.com/wp-content/uploads/2015/10/debra-duffy-dds-christmas-tooth.jpg" style="width:250px;height:150px;">
+<img src="http://i.imgur.com/7K17R4A.jpg" style="width:250px;height:150px;">
+
+</div>
+
+
+
+<div id="footer">
+8109 Ingram Rd San Antonio, TX <br>
+All rights reserved. Developed with the Help of Learning.<br>
+This is a fake website. Please No Real Information.
+<form action="action_page.php">
+<p>
+Want To Subscribe for Monthly Updates? Enter Email Address Below:
+</p> 
+<p>
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit">
+  </p>
+</form>
+</div>
+
+
+</body>
+</html>
