@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+<title> Home </title>
 <style>
 #header {
     background-color:#6666cc;
@@ -139,10 +140,10 @@ About Us
 
 
 <p> <b>Contact Phone Numbers:</b> <br>
-Main Number (210) 575-4000 <br>
-Administration (210) 575-5987 <br>
-Human Resources (210) 575-0400 <br>
-Patient Billing (866) 391-2019 <br>
+Main Number (555) 575-4000 <br>
+Administration (555) 575-5987 <br>
+Human Resources (555) 575-0400 <br>
+Patient Billing (555) 391-2019 <br>
 </p>
 
 <br>
