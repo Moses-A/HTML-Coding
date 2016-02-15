@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+<title> Latest News </title>
 <style>
 #header {
     background-color:#6666cc;
@@ -99,15 +100,13 @@ li a:hover, .dropdown:hover .dropbtn {
   <div class="dropdown">
     <a href="#" class="dropbtn">Login</a>
     <div class="dropdown-content">
-      <form action="">
-User name:<br>
-<input type="text" name="userid">
-<br>
-User password:<br>
-<input type="password" name="psw">
-<input type="submit">
-</form>
+<form method="post" action="qaddlead.php" name="review">
 
+</h2><h5>
+Username: <input type="VARCHAR" name="frm_name" />
+Password: <input type="VARCHAR" name="frm_password" />
+</select>
+<input type="submit" />
     </div>
   </div>
 </ul>
