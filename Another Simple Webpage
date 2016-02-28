@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title> Home </title>
+<style>
+#header {
+    background-color:#0040ff;
+    float: center;
+    margin: 10px;
+    padding: 10px;
+    width: 5o0px;
+    height: 65px;
+    border: 1px solid black
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+#nav {
+    line-height:25px;
+    background-color:#f2f2f2;
+    text-align: center;
+    height:350px;
+    width:9o0px;
+    float:right;
+    padding:5px;	      
+}
+#section {
+    width:3o0px;
+    float:right;
+    text-align: center;
+    padding:100px;
+    background-color:#f2f2f2;
+}
+#footer {
+    background-color:#595959;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:8px;	 	 
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4d4d4d
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Beginning of where user sees, starts with top bar --!>
+
+<div id="header">
+<center> <h1> BABY PLATO</h1> </center>
+</div>
+
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">News</a>
+  <li><a href="about.html">Contact Us</a>
+</li>
+  <div class="dropdown">
+    <a href="#" class="dropbtn">Lessons</a>
+    <div class="dropdown-content">
+      <form action="">
+<a href="lesson1.html">Lesson 1: Importance of Math</a> <br>
+<a href="lesson2.html">Lesson 2: Symbols Meaning</a> <br>
+<a href="lesson3.html">Lesson 3: Addition</a> <br>
+<a href="lesson4.html">Lesson 4: Subtraction</a> <br>
+<a href="lesson5.html">Lesson 5: Combination</a>
+</form>
+
+    </div>
+  </div>
+</ul>
+
+
+<div id="nav">
+
+<h3><center>Welcome! </center> </h3> 
+
+<h4> <i>"Wisdom Outweighs Any Wealth." - Sophocles </i> </h4>
+<p> Baby Plato is a basic mathematics website specifically designed to teach students how they learn, with the theme of Classical Greece! In addition, we also attempt to give students all of the necessary tools needed to become successful in the field of math. Therefore, we attempt to make homework an easier obstacle.</p>
+<img src="http://www.freeimageslive.co.uk/image/view/7002/_original" style="width:250px" "height:150px;" align= "center">
+
+</div>
+<div id="section">
+
+<p> <b>Tutor Information:</b> <br>
+Tutor Hours: 8:50am - 4:05pm <br>
+Phone: (210) 397-7070 <br>
+Fax: (210) 706-7076 <br>
+Year Started: 1991 <br>
+
+</p>
+
+
+<br>
+
+<p> <i>"In an attempt to educate the world, we are here to tutor the world, one student at a time of course. Your tutors today are Lucas, Kwame, Ricardo, and Anthony. As current seniors at Business Careers High School we wish to see the world become a little more educated with each view." </i>
+</p>
+
+<img src="http://nisd.net/businesscareers/sites/businesscareers/files/BCHS-logo-web.jpg" style="width:300px" height:300px" align ="center">
+
+<br>
+
+</div>
+
+<div id="footer">
+1600 Ingram Rd. San Antonio, TX <br>
+All rights reserved. Developed with the Help of Learning (with math).
+<form action="action_page.php">
+<p>
+Want To Subscribe for Monthly Updates? Enter Email Address Below:
+</p> 
+<p>
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit">
+  </p>
+</form>
+</div>
+
+
+</body>
+</html>
